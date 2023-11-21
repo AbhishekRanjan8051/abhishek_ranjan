@@ -9,6 +9,7 @@ import mongodb from "../../assests/skill/mongodb.svg";
 import tailwind from "../../assests/skill/tailwindcss.svg";
 import git from "../../assests/skill/git.svg";
 import mysql from "../../assests/skill/mysql.svg"
+import figma from "../../assests/skill/figma.svg"
 
 const Skill = () => {
   return (
@@ -52,6 +53,9 @@ const Skill = () => {
               </div>
               <div className="skill_icon_name">
                 <img src={mysql} alt="mysql" /> <span>My SQL</span>
+              </div>
+              <div className="skill_icon_name">
+                <img src={figma} alt="figma" /> <span>Figma</span>
               </div>
             </div>
           </div>
