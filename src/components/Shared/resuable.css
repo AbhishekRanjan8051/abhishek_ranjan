@@ -1,0 +1,26 @@
+.eduction {
+  color: white;
+}
+.eductiondata {
+  background: #42464d;
+  margin-top:55px;
+  padding: 30px;
+  transition: all 0.2s ease-in-out;
+}
+.eductiondata:hover {
+  box-shadow: rgba(246, 243, 243, 0.35) 0px 5px 15px;
+  transform: scale(1.02);
+}
+.eductiondetails > p {
+  font-family: "Montserrat, sans-serif";
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 800;
+  color: #343434;
+  font-style: normal;
+  text-align: center;
+}
+
+.eduction>h3{
+  text-align: center;
+}

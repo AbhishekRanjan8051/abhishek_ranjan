@@ -1,0 +1,82 @@
+.custom-shape-divider-top-1681580075 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1681580075 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 94px;
+}
+
+.custom-shape-divider-top-1681580075 .shape-fill {
+  fill: #907373;
+}
+.project {
+  position: relative;
+}
+/* .projectlist {
+  margin: auto;
+  width: "fit-content";
+} */
+.card-body {
+  width: 20%;
+  margin: 40px;
+  border-radius: 0px;
+  transition: 0.5s;
+  background: teal;
+}
+.projectboxcard {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 40px;
+  background: none;
+  border: none;
+}
+.projectcard {
+  /* width: fit-content; */
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+  margin: auto;
+  background: #42464d;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.projectcard:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+/*
+.card-body:hover {
+  box-shadow: -5px 5px 10px teal;
+}
+.card-title,
+.card-text {
+  color: black;
+  overflow: hidden;
+  font-weight: 900;
+} */
+.projectdetails {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.projectdetailsbutton {
+  display: flex;
+  gap: 5px;
+}
